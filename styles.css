@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #DEB887;
+    
+    font-family: monospace;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+}
+
+h2{
+    padding: 0;
+    margin: 10px;
+}
+
+canvas {
+    text-align: center;
+    margin-top: 10;
+    color: #ff0000;
+    display: inline-block;
+    background-color: #BDB76B;
+}
+
+
+button {
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #8FBC8F;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#limpiar{
+    height: 120px;
+    top: 200px;
+}
+
+#highScores{
+    font-size: 20px;
+    height: 120px;
+    top: 350px;
+}
+
+button:hover {
+    background-color: #DCDCDC;
+}
+
+form{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+}
+
+form input{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 50px;
+}
+
+#submit{
+    display: block;
+    margin-top: 10px;
+    margin-left: 105px;
+}
+
+h3 {
+    position: absolute;
+    display: inline-block;
+    background-color: #BDB76B;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#score1{
+    left: 10px;
+}
+
+#score2{
+    top: 150px;
+    left: 10px;
+}
+
+#empate{
+    top: 220px;
+    left: 10px;
+}
